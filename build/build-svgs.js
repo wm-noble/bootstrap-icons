@@ -8,7 +8,7 @@ const chalk = require('chalk')
 const cheerio = require('cheerio')
 const { loadConfig, optimize } = require('svgo')
 
-const iconsDir = path.join(__dirname, '../icons/')
+const iconsDir = path.join(__dirname, '../icons-subset/')
 
 const VERBOSE = process.argv.includes('--verbose')
 

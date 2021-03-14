@@ -6,7 +6,7 @@ const fs = require('fs').promises
 const path = require('path')
 const chalk = require('chalk')
 
-const iconsDir = path.join(__dirname, '../icons/')
+const iconsDir = path.join(__dirname, '../icons-subset/')
 const pagesDir = path.join(__dirname, '../docs/content/icons/')
 
 const VERBOSE = process.argv.includes('--verbose')

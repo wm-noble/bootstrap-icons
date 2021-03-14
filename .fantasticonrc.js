@@ -1,9 +1,9 @@
 const codepoints = require('./font/bootstrap-icons.json');
 
 module.exports = {
-  inputDir: './icons', // (required)
+  inputDir: './icons-subset', // (required)
   outputDir: './font', // (required)
-  fontTypes: ['woff2', 'woff'],
+  fontTypes: ['woff2'],
   assetTypes: ['css', 'json', 'html'],
   name: 'bootstrap-icons',
   codepoints: codepoints,
